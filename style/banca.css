@@ -10,7 +10,7 @@
     --color-light: #fff;
     --color-pramiry:#2165be;
     --color-dender:rgb(208, 74, 74);
-    --header-color:#24618a;
+    /* --header-color:#24618a; */
     --footer-color:#031779;
 }
 
@@ -23,7 +23,7 @@ body{
 }
 
 .container-max-width{
-    max-width: 1080px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 
@@ -38,6 +38,7 @@ a{
 .container{
     padding: 2rem 0 0;
     background: #fff;
+    border: none;
 }
 
 .title .link{
@@ -46,7 +47,7 @@ a{
     padding: 0 2rem ;
 }
 
-.title h1{
+.title h2{
     font-size: 2.9rem;
     font-weight: bold;
     color: #000;

@@ -23,7 +23,7 @@ body{
 }
 
 .container-max-width{
-    max-width: 1170px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
@@ -83,10 +83,6 @@ a{
     justify-content: center;
     align-items: center;
     padding: 2rem 0;
-}
-
-.content .node .select:hover{
-    color:  rgb(224, 224, 4);
 }
 
 .content .desc-center p{

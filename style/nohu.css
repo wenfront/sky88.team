@@ -10,7 +10,7 @@
     --color-light: #fff;
     --color-pramiry:#2165be;
     --color-dender:rgb(208, 74, 74);
-    --header-color:#24618a;
+    /* --header-color:#24618a; */
     --footer-color:#031779;
 }
 
@@ -23,7 +23,7 @@ body{
 }
 
 .container-max-width{
-    max-width: 1080px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 
@@ -38,29 +38,31 @@ a{
 .container{
     padding: 2rem 0 0;
     background: #fff;
+    border: none;
 }
 
-.title .link{
+
+.container .title .link{
     display: inline-block;
     color: var(--color-pramiry);
     padding: 0 2rem ;
 }
 
-.title h1{
+.container .title h1{
     font-size: 2.9rem;
     font-weight: bold;
     color: #000;
     padding: 2rem ;
 }
 
-.content h2{
+.container .content h2{
     font-size: 2.5rem;
     font-weight: bold;
     color: #000;
     padding: 1rem 0;
 }
 
-.content h3{
+.container .content h3{
     font-size: 2.1rem;
     font-weight: bold;
     color: #000;
